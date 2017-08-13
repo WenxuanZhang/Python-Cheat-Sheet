@@ -1,8 +1,8 @@
-Alt-Pandas
+Pandas
 ----------------
 Pandas is a python library that provide providing fast, flexible, and expressive data structures designed to make working with “relational” or “labeled” data both easy and intuitive.
 
-Alt-Read in Data
+Read in Data
 ----------------
 Pandas is able to read Data in various format,such as 
 + Yahoo Finance 
