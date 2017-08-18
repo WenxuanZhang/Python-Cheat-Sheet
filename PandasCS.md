@@ -25,4 +25,35 @@ import pandas as pd
 pd.read_csv()
 
 ```
+Create DataFrame
+----------------
+```python
+import pandas as pd
+import numpy as np
+# create series
+s = pd.Series([1,3,5,np.nan,6,8])
+name = pd.Series(['a','b','c','d','e','f'])
+# create dataframe
+example = pd.DataFrame({"name":name,"score":s,"index":[range(0,len(s))]})
+# create index 
+example.index= map(str,range(0,len(s)))
+# access index
+example.loc["3","score"]
+```
+Access DataFrame
+----------------
+```python
+# access by index 
+#  Index Based Accessing
+example.loc["3":"4","score"]
+# Location Based Accessing
+
+# Condition Based Accessing
+
+# 
+```
+
+
+Merge DataFrame 
+---------------
 
